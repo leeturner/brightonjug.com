@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skills on Brighton JUG</title>
+    <link>/tags/skills/</link>
+    <description>Recent content in Skills on Brighton JUG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2022 Brighton JUG | &lt;a href=&#34;/code-of-conduct/&#34;&gt;Code of Conduct&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 05 Jan 2022 17:09:08 +0000</lastBuildDate><atom:link href="/tags/skills/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing Code is Easy, Being a Great Developer is Hard - Helen Scott</title>
+      <link>/blog/writing-code-easy-being-great-developer-is-hard-helen-scott/</link>
+      <pubDate>Wed, 05 Jan 2022 17:09:08 +0000</pubDate>
+      
+      <guid>/blog/writing-code-easy-being-great-developer-is-hard-helen-scott/</guid>
+      <description>Out first ever Brighton JUG will take place on Tuesday 18th January at 5 pm GMT.
+Our first speaker will be Helen Scott who is a Keynote Storyteller at MongoDB. Helen will be talking to us about how Writing Code is Easy, Being a Great Developer is Hard:
+tldr; Everything I wish I’d learned about being a developer at University.
+We learn to write code at university, bootcamp, or we teach ourselves.</description>
+    </item>
+    
+  </channel>
+</rss>

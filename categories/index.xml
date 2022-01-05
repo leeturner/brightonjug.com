@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Brighton JUG</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Brighton JUG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2022 Brighton JUG | &lt;a href=&#34;/code-of-conduct/&#34;&gt;Code of Conduct&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 05 Jan 2022 17:09:08 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meetups</title>
+      <link>/categories/meetups/</link>
+      <pubDate>Wed, 05 Jan 2022 17:09:08 +0000</pubDate>
+      
+      <guid>/categories/meetups/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brighton JUG</title>
+    <link>/</link>
+    <description>Recent content on Brighton JUG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2022 Brighton JUG | &lt;a href=&#34;/code-of-conduct/&#34;&gt;Code of Conduct&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 05 Jan 2022 17:09:08 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing Code is Easy, Being a Great Developer is Hard - Helen Scott</title>
+      <link>/blog/writing-code-easy-being-great-developer-is-hard-helen-scott/</link>
+      <pubDate>Wed, 05 Jan 2022 17:09:08 +0000</pubDate>
+      
+      <guid>/blog/writing-code-easy-being-great-developer-is-hard-helen-scott/</guid>
+      <description>Out first ever Brighton JUG will take place on Tuesday 18th January at 5 pm GMT.
+Our first speaker will be Helen Scott who is a Keynote Storyteller at MongoDB. Helen will be talking to us about how Writing Code is Easy, Being a Great Developer is Hard:
+tldr; Everything I wish I’d learned about being a developer at University.
+We learn to write code at university, bootcamp, or we teach ourselves.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Brighton JUG is a group bringing together Java users, enthusiasts and learners. We’re interested in the whole world of Java – android development, server frameworks, interesting tools, applications, development methodologies and so on and so on – anything Java.
+Our monthly meetings will include talks, workshops and socials.
+Visit our Meetup Page and sign up to come along to our next event or follow us on Twitter for all the latest news.</description>
+    </item>
+    
+    <item>
+      <title>Code of Conduct</title>
+      <link>/code-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/code-of-conduct/</guid>
+      <description>Event Code of Conduct &amp;amp; Anti-Harrassment Policy The Google Developer Groups, Kotlin User Groups and other Community Groups organizing these events [&amp;ldquo;Organizers&amp;rdquo;] are dedicated to providing a harassment-free and inclusive event experience for everyone regardless of gender identity and expression, sexual orientation, disabilities, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion, or other protected category. They do not tolerate harassment of event participants in any form. The Organizers take violations of this policy seriously and will respond appropriately.</description>
+    </item>
+    
+    <item>
+      <title>Silicon Brighton</title>
+      <link>/silicon-brighton/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/silicon-brighton/</guid>
+      <description>Brighton JUG is Co-Founded and Supported By Silicon Brighton
+Silicon Brighton is a community-led initiative to support digital growth in the region. We work hand-in-hand with the local tech community to provide individuals with free opportunities for networking, training, up-skilling and development; helping people to take their careers and businesses forward.
+We offer free events for networking, training, upskilling and development as well as a being an accessible platform for local people and businesses.</description>
+    </item>
+    
+  </channel>
+</rss>
