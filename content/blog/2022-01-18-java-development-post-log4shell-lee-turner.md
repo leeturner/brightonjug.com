@@ -33,5 +33,5 @@ Lee is the Lead Backend Developer at Crunch
 
 Connect with Lee:
 
-Twitter: https://twitter.com/leeturner
-LinkedIn: https://www.linkedin.com/in/turnerlee
+* Twitter: https://twitter.com/leeturner
+* LinkedIn: https://www.linkedin.com/in/turnerlee
