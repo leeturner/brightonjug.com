@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on Brighton JUG</title>
+    <link>/tags/learning/</link>
+    <description>Recent content in Learning on Brighton JUG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2022 Brighton JUG | &lt;a href=&#34;/code-of-conduct/&#34;&gt;Code of Conduct&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 13 Feb 2022 07:09:08 +0000</lastBuildDate><atom:link href="/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning Through Tinkering - Tom Cools</title>
+      <link>/blog/learning-through-tinkering-tom-cools/</link>
+      <pubDate>Sun, 13 Feb 2022 07:09:08 +0000</pubDate>
+      
+      <guid>/blog/learning-through-tinkering-tom-cools/</guid>
+      <description>Our March Brighton JUG will take place on Tuesday 15th March at 5pm GMT. We will be opening the zoom just before 5pm for people to gather and chat.
+Our first speaker will be Tom Cools who will be talking about Learning Through Tinkering
+Do you also feel like it’s hard to keep up with all the new tools and frameworks coming your way? You are not alone! By choosing IT, you are choosing to learn for the rest of your life… not an easy task.</description>
+    </item>
+    
+  </channel>
+</rss>
