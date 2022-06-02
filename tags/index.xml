@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2022 Brighton JUG | &lt;a href=&#34;/code-of-conduct/&#34;&gt;Code of Conduct&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 13 Feb 2022 07:09:08 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Apr 2022 07:09:08 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>12 Factors</title>
+      <link>/tags/12-factors/</link>
+      <pubDate>Wed, 13 Apr 2022 07:09:08 +0000</pubDate>
+      
+      <guid>/tags/12-factors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>/tags/cloud/</link>
+      <pubDate>Wed, 13 Apr 2022 07:09:08 +0000</pubDate>
+      
+      <guid>/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IBM</title>
+      <link>/tags/ibm/</link>
+      <pubDate>Wed, 13 Apr 2022 07:09:08 +0000</pubDate>
+      
+      <guid>/tags/ibm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Liberty</title>
+      <link>/tags/open-liberty/</link>
+      <pubDate>Wed, 13 Apr 2022 07:09:08 +0000</pubDate>
+      
+      <guid>/tags/open-liberty/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Development</title>
       <link>/tags/development/</link>
