@@ -1,11 +1,11 @@
 ---
-title: Thriving in the cloud: Venturing beyond the 12 factors - Grace Jansen and Yasmin Aumeeruddy
-description: Thriving in the cloud: Venturing beyond the 12 factors
+title: Thriving in the cloud - Venturing beyond the 12 factors - Grace Jansen and Yasmin Aumeeruddy
+description: Thriving in the cloud - Venturing beyond the 12 factors
 date: 2022-04-13T07:09:08Z
 author: Lee Turner
 type: post
 featured: open-liberty-on-tour.jpg
-featuredalt: Thriving in the cloud: Venturing beyond the 12 factors - Grace Jansen and Yasmin Aumeeruddy
+featuredalt: Thriving in the cloud - Venturing beyond the 12 factors - Grace Jansen and Yasmin Aumeeruddy
 featuredpath: /images/blog/2022/04
 slug: thriving-in-the-cloud
 categories:
