@@ -4,7 +4,7 @@ description: Thriving in the cloud - Venturing beyond the 12 factors
 date: 2022-04-13T07:09:08Z
 author: Lee Turner
 type: post
-featured: open-liberty-on-tour.jpg
+featured: open-liberty-on-tour.png
 featuredalt: Thriving in the cloud - Venturing beyond the 12 factors - Grace Jansen and Yasmin Aumeeruddy
 featuredpath: /images/blog/2022/04
 slug: thriving-in-the-cloud
@@ -25,8 +25,6 @@ with Grace Jansen and Yasmin Aumeeruddy
 
 Event Format:
 This is a hybrid event, offering the option to come along in person or join us from anywhere online!
-
-Online sign up here: https://us06web.zoom.us/meeting/register/tJUkd-CvpjwpHNWC-NMW_VAUwys3Z71PkpeX
 
 We will be opening the zoom just before 6pm for people to gather and chat.
 
