@@ -35,3 +35,7 @@ Connect with Tom:
 
 * Twitter: https://twitter.com/TCoolsIT
 * LinkedIn: https://www.linkedin.com/in/tom-cools-17547548/
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kOvabt6gbRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
