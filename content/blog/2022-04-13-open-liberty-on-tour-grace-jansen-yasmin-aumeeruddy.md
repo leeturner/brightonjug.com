@@ -47,3 +47,7 @@ Grace is a Developer Advocate at IBM and Yasmin is a software developer for Open
 
 Connect with Yasmin:
 * LinkedIn: https://www.linkedin.com/in/yasmin-aumeeruddy/
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g9o2eq7l9Is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
