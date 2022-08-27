@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Security on Brighton JUG</title>
-    <link>/tags/security/</link>
-    <description>Recent content in Security on Brighton JUG</description>
+    <title>Agents on Brighton JUG</title>
+    <link>/tags/agents/</link>
+    <description>Recent content in Agents on Brighton JUG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2022 Brighton JUG | &lt;a href=&#34;/code-of-conduct/&#34;&gt;Code of Conduct&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 19 Jul 2022 07:09:08 +0000</lastBuildDate><atom:link href="/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Jul 2022 07:09:08 +0000</lastBuildDate><atom:link href="/tags/agents/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Java Agent- modifying Bytecode at runtime for fun and profit with Joseph Beeton</title>
       <link>/blog/the-java-agent/</link>
@@ -17,16 +17,6 @@
       <description>The Java Agent- modifying Bytecode at runtime for fun and profit with Joseph Beeton
 We are very excited to welcome Joseph Beeton who will be talking to us about The Java Agent: modifying Bytecode at runtime for fun and profit:
 Java Agents are a powerful tool to instrument or modify your application at runtime. But how do they work? In this talk I&amp;rsquo;ll be going through how they work when configured at startup as well as attaching a agent to a running process.</description>
-    </item>
-    
-    <item>
-      <title>Java Development in a Post Log4Shell World - Lee Turner</title>
-      <link>/blog/java-development-in-a-post-log4shell-world-lee-turner/</link>
-      <pubDate>Tue, 18 Jan 2022 17:09:08 +0000</pubDate>
-      
-      <guid>/blog/java-development-in-a-post-log4shell-world-lee-turner/</guid>
-      <description>Our second speaker will be Lee Turner - the Lead Backend Developer at Crunch. Lee will be talking to us about Java Development in a Post Log4Shell World
-As a Java developer you will probably already be aware of, and are probably in the midst of remediating, the vulnerability that has come to be known as Log4Shell. This is the vulnerability which security researchers disclosed on Friday (10 December 2021) for Apache’s Log4j logging framework.</description>
     </item>
     
   </channel>
