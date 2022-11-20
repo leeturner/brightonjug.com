@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sprint on Brighton JUG</title>
+    <link>/tags/sprint/</link>
+    <description>Recent content in sprint on Brighton JUG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2022 Brighton JUG | &lt;a href=&#34;/code-of-conduct/&#34;&gt;Code of Conduct&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 15 Nov 2022 07:09:08 +0000</lastBuildDate><atom:link href="/tags/sprint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quarkus for Spring Developers with Eric Deandrea</title>
+      <link>/blog/quarkus-for-spring-developers/</link>
+      <pubDate>Tue, 15 Nov 2022 07:09:08 +0000</pubDate>
+      
+      <guid>/blog/quarkus-for-spring-developers/</guid>
+      <description>Quarkus for Spring Developers with Eric Deandrea
+We are very excited to welcome Eric Deandrea. He will be giving a talk on Quarkus for Spring Developers:
+In this session, I will show concepts and conventions familiar to Spring developers and how those same concepts and conventions can be implemented in Quarkus, all while highlighting similarities and differences between them. Additionally, I will show similarities and differences in how testing is done, highlighting Quarkus Dev Services.</description>
+    </item>
+    
+  </channel>
+</rss>
