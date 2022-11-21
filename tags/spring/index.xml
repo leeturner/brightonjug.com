@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sprint on Brighton JUG</title>
-    <link>/tags/sprint/</link>
-    <description>Recent content in sprint on Brighton JUG</description>
+    <title>spring on Brighton JUG</title>
+    <link>/tags/spring/</link>
+    <description>Recent content in spring on Brighton JUG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2022 Brighton JUG | &lt;a href=&#34;/code-of-conduct/&#34;&gt;Code of Conduct&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 15 Nov 2022 07:09:08 +0000</lastBuildDate><atom:link href="/tags/sprint/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Nov 2022 07:09:08 +0000</lastBuildDate><atom:link href="/tags/spring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quarkus for Spring Developers with Eric Deandrea</title>
       <link>/blog/quarkus-for-spring-developers/</link>
