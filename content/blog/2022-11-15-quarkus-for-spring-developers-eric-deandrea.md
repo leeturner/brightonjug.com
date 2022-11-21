@@ -12,7 +12,7 @@ categories:
 - Meetups
 tags:
 - quarkus
-- sprint
+- spring
 - cloud
 - native
 
