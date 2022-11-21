@@ -36,4 +36,4 @@ Connect with Eric:
 
 ## Slides
 
-The slides from Eric's talk can be bound here - [quarkus-world-tour-brighton-uk-jug.pdf](/images/blog/2022/11/quarkus-world-tour-brighton-uk-jug.pdf)
+The slides from Eric's talk can be found here - [quarkus-world-tour-brighton-uk-jug.pdf](/images/blog/2022/11/quarkus-world-tour-brighton-uk-jug.pdf)
