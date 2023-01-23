@@ -25,7 +25,7 @@ In this session, I will show concepts and conventions familiar to Spring develop
 
 I will introduce an existing Spring application with a full test suite, then using a test-driven-development approach with Quarkus Dev Services & Continuous testing, quickly convert it to Quarkus.
 
--- Bio --
+## Bio
 
 Eric Deandrea is a Sr. Principal Developer Advocate at Red Hat
 
@@ -37,3 +37,7 @@ Connect with Eric:
 ## Slides
 
 The slides from Eric's talk can be found here - [quarkus-world-tour-brighton-uk-jug.pdf](/images/blog/2022/11/quarkus-world-tour-brighton-uk-jug.pdf)
+
+## Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4HqRv45fEps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

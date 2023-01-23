@@ -27,7 +27,7 @@ In this session we’ll look into some concepts that will help you get the most 
 
 We’ll go over a couple of example projects and give you some tools to keep learning without being overwhelmed by the flood of new technologies.
 
--- Bio --
+## Bio
 
 Tom is a Software Engineer at Info Support (Belgium)
 

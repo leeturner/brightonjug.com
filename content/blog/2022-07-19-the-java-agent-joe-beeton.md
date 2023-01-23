@@ -26,7 +26,7 @@ Show how the underlying Java Agent API works, how it can be used to both analyse
 
 Then show a real world uses of a Java Agent to generate a SBOM (Software Bill of Materials) from a running application https://github.com/Contrast-Security-OSS/jbom and how a RASP can be used to protect a application from security vulnerabilities both in your code and in 3rd party dependencies.
 
--- Bio --
+## Bio
 
 Joseph is a Senior Security Researcher at Contrast Security.
 

@@ -24,7 +24,7 @@ In this talk we will use the AWS Cloud Development Kit (CDK) to deploy Java back
 
 We'll also talk a little about GraalVM native-image and why it's important for AWS Lambda
 
--- Bio --
+## Bio
 
 Mark Sailes is a Specialist Solutions Architect at AWS
 
