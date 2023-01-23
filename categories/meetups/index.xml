@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2022 Brighton JUG | &lt;a href=&#34;/code-of-conduct/&#34;&gt;Code of Conduct&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 15 Nov 2022 07:09:08 +0000</lastBuildDate><atom:link href="/categories/meetups/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Jan 2023 07:09:08 +0000</lastBuildDate><atom:link href="/categories/meetups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Today&#39;s Special - Apache Tika Masala! with Dan Conn</title>
+      <link>/blog/apache-tika-dan-conn/</link>
+      <pubDate>Mon, 23 Jan 2023 07:09:08 +0000</pubDate>
+      
+      <guid>/blog/apache-tika-dan-conn/</guid>
+      <description>Meetup link - https://www.meetup.com/brighton-jug/events/290961686/
+We are very excited to welcome Dan Conn. He will be giving a talk on Today&amp;rsquo;s Special: Apache Tika Masala!
+Apache Tika is an awesome open-source tool which can be used for search indexing, sentiment analysis, detecting the true mime type of a file, or language detection. But Tika can also add some spice to a workflow by helping to highlight threats.
+This talk will show Tika’s general use cases and how developers can benefit from its use, but also how it can be used for finding threats in file metadata or content, which may benefit more experienced developers working in security realms.</description>
+    </item>
+    
     <item>
       <title>Quarkus for Spring Developers with Eric Deandrea</title>
       <link>/blog/quarkus-for-spring-developers/</link>
@@ -50,11 +62,8 @@ Java Agents are a powerful tool to instrument or modify your application at runt
       <guid>/blog/thriving-in-the-cloud/</guid>
       <description>Thriving in the cloud: Venturing beyond the 12 factors
 with Grace Jansen and Yasmin Aumeeruddy
-————————
-Event Format: This is a hybrid event, offering the option to come along in person or join us from anywhere online!
-We will be opening the zoom just before 6pm for people to gather and chat.
-————————
-We are very excited to welcome Grace Jansen and Yasmin Aumeeruddy on their Open Liberty tour. They will be giving a workshop on Thriving in the cloud: Venturing beyond the 12 factors:</description>
+We are very excited to welcome Grace Jansen and Yasmin Aumeeruddy on their Open Liberty tour. They will be giving a workshop on Thriving in the cloud: Venturing beyond the 12 factors:
+Enabling applications to really thrive (and not just survive) in cloud environments can be challenging. The original 12 factor app methodology helped to lay out some of the key characteristics needed for cloud-native applications&amp;hellip; but&amp;hellip; as our cloud infrastructure and tooling has progressed, so too have these factors.</description>
     </item>
     
     <item>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>apache on Brighton JUG</title>
+    <link>/tags/apache/</link>
+    <description>Recent content in apache on Brighton JUG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2022 Brighton JUG | &lt;a href=&#34;/code-of-conduct/&#34;&gt;Code of Conduct&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 23 Jan 2023 07:09:08 +0000</lastBuildDate><atom:link href="/tags/apache/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Today&#39;s Special - Apache Tika Masala! with Dan Conn</title>
+      <link>/blog/apache-tika-dan-conn/</link>
+      <pubDate>Mon, 23 Jan 2023 07:09:08 +0000</pubDate>
+      
+      <guid>/blog/apache-tika-dan-conn/</guid>
+      <description>Meetup link - https://www.meetup.com/brighton-jug/events/290961686/
+We are very excited to welcome Dan Conn. He will be giving a talk on Today&amp;rsquo;s Special: Apache Tika Masala!
+Apache Tika is an awesome open-source tool which can be used for search indexing, sentiment analysis, detecting the true mime type of a file, or language detection. But Tika can also add some spice to a workflow by helping to highlight threats.
+This talk will show Tika’s general use cases and how developers can benefit from its use, but also how it can be used for finding threats in file metadata or content, which may benefit more experienced developers working in security realms.</description>
+    </item>
+    
+  </channel>
+</rss>
