@@ -4,144 +4,101 @@
     <title>Brighton JUG</title>
     <link>/</link>
     <description>Recent content on Brighton JUG</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2022 Brighton JUG | &lt;a href=&#34;/code-of-conduct/&#34;&gt;Code of Conduct&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 17 Jun 2023 11:15:02 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 May 2024 18:17:53 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solving the integration testing puzzle with contract testing with Bas Dijkstra</title>
+      <link>/blog/solving-the-integration-testing-puzzle-with-contract-testing/</link>
+      <pubDate>Thu, 30 May 2024 18:17:53 +0000</pubDate>
+      <guid>/blog/solving-the-integration-testing-puzzle-with-contract-testing/</guid>
+      <description>Come and join us by signing up on our meetup page: https://www.meetup.com/brighton-jug/events/299691382/&#xA;We are very excited to welcome Bas Dijkstra as a speaker at Brighton JUG. Bas is a Test automation trainer and consultant at On Test Automation. He will be giving a talk on - Solving the integration testing puzzle with contract testing&#xA;Modern applications that are built out of loosely coupled pose some challenges in terms of integration and E2E testing.</description>
+    </item>
     <item>
       <title>June 2023 Brighton JUG Meetup - Summer Social</title>
       <link>/blog/june-2023-brighton-jug-meetup---summer-social/</link>
       <pubDate>Sat, 17 Jun 2023 11:15:02 +0000</pubDate>
-      
       <guid>/blog/june-2023-brighton-jug-meetup---summer-social/</guid>
-      <description>We will be taking a break from our usual schedule of talks to get together with our sister group, Brighton Kotlin, with an IRL social and kick off the summer with a few drinks at the Foundary pub in Brighton
-We hope to see as many of you as can make it:
-29th June, 2023
-13-14 Foundry St, Brighton, Brighton and Hove, Brighton BN1 4AT
-6pm to 8pm</description>
+      <description>We will be taking a break from our usual schedule of talks to get together with our sister group, Brighton Kotlin, with an IRL social and kick off the summer with a few drinks at the Foundary pub in Brighton&#xA;We hope to see as many of you as can make it:&#xA;29th June, 2023&#xA;13-14 Foundry St, Brighton, Brighton and Hove, Brighton BN1 4AT&#xA;6pm to 8pm</description>
     </item>
-    
     <item>
       <title>Today&#39;s Special - Apache Tika Masala! with Dan Conn</title>
       <link>/blog/apache-tika-dan-conn/</link>
       <pubDate>Mon, 23 Jan 2023 07:09:08 +0000</pubDate>
-      
       <guid>/blog/apache-tika-dan-conn/</guid>
-      <description>Meetup link - https://www.meetup.com/brighton-jug/events/290961686/
-We are very excited to welcome Dan Conn. He will be giving a talk on Today&amp;rsquo;s Special: Apache Tika Masala!
-Apache Tika is an awesome open-source tool which can be used for search indexing, sentiment analysis, detecting the true mime type of a file, or language detection. But Tika can also add some spice to a workflow by helping to highlight threats.
-This talk will show Tika’s general use cases and how developers can benefit from its use, but also how it can be used for finding threats in file metadata or content, which may benefit more experienced developers working in security realms.</description>
+      <description>Meetup link - https://www.meetup.com/brighton-jug/events/290961686/&#xA;We are very excited to welcome Dan Conn. He will be giving a talk on Today&amp;rsquo;s Special: Apache Tika Masala!&#xA;Apache Tika is an awesome open-source tool which can be used for search indexing, sentiment analysis, detecting the true mime type of a file, or language detection. But Tika can also add some spice to a workflow by helping to highlight threats.&#xA;This talk will show Tika’s general use cases and how developers can benefit from its use, but also how it can be used for finding threats in file metadata or content, which may benefit more experienced developers working in security realms.</description>
     </item>
-    
     <item>
       <title>Quarkus for Spring Developers with Eric Deandrea</title>
       <link>/blog/quarkus-for-spring-developers/</link>
       <pubDate>Tue, 15 Nov 2022 07:09:08 +0000</pubDate>
-      
       <guid>/blog/quarkus-for-spring-developers/</guid>
-      <description>Quarkus for Spring Developers with Eric Deandrea
-We are very excited to welcome Eric Deandrea. He will be giving a talk on Quarkus for Spring Developers:
-In this session, I will show concepts and conventions familiar to Spring developers and how those same concepts and conventions can be implemented in Quarkus, all while highlighting similarities and differences between them. Additionally, I will show similarities and differences in how testing is done, highlighting Quarkus Dev Services.</description>
+      <description>Quarkus for Spring Developers with Eric Deandrea&#xA;We are very excited to welcome Eric Deandrea. He will be giving a talk on Quarkus for Spring Developers:&#xA;In this session, I will show concepts and conventions familiar to Spring developers and how those same concepts and conventions can be implemented in Quarkus, all while highlighting similarities and differences between them. Additionally, I will show similarities and differences in how testing is done, highlighting Quarkus Dev Services.</description>
     </item>
-    
     <item>
       <title>Getting started cloud natively, with Java with Mark Sailes</title>
       <link>/blog/getting-started-cloud-natively/</link>
       <pubDate>Tue, 20 Sep 2022 07:09:08 +0000</pubDate>
-      
       <guid>/blog/getting-started-cloud-natively/</guid>
-      <description>Getting started cloud natively, with Java with Mark Sailes
-We are very excited to welcome Mark Sailes. He will be giving a talk on Getting started cloud natively, with Java:
-In this talk we will use the AWS Cloud Development Kit (CDK) to deploy Java backends for various event driven applications. We&amp;rsquo;ll use the Micronaut framework to create a synchronous REST API, and an asynchronous event worker.
-We&amp;rsquo;ll also talk a little about GraalVM native-image and why it&amp;rsquo;s important for AWS Lambda</description>
+      <description>Getting started cloud natively, with Java with Mark Sailes&#xA;We are very excited to welcome Mark Sailes. He will be giving a talk on Getting started cloud natively, with Java:&#xA;In this talk we will use the AWS Cloud Development Kit (CDK) to deploy Java backends for various event driven applications. We&amp;rsquo;ll use the Micronaut framework to create a synchronous REST API, and an asynchronous event worker.&#xA;We&amp;rsquo;ll also talk a little about GraalVM native-image and why it&amp;rsquo;s important for AWS Lambda</description>
     </item>
-    
     <item>
       <title>The Java Agent- modifying Bytecode at runtime for fun and profit with Joseph Beeton</title>
       <link>/blog/the-java-agent/</link>
       <pubDate>Tue, 19 Jul 2022 07:09:08 +0000</pubDate>
-      
       <guid>/blog/the-java-agent/</guid>
-      <description>The Java Agent- modifying Bytecode at runtime for fun and profit with Joseph Beeton
-We are very excited to welcome Joseph Beeton who will be talking to us about The Java Agent: modifying Bytecode at runtime for fun and profit:
-Java Agents are a powerful tool to instrument or modify your application at runtime. But how do they work? In this talk I&amp;rsquo;ll be going through how they work when configured at startup as well as attaching a agent to a running process.</description>
+      <description>The Java Agent- modifying Bytecode at runtime for fun and profit with Joseph Beeton&#xA;We are very excited to welcome Joseph Beeton who will be talking to us about The Java Agent: modifying Bytecode at runtime for fun and profit:&#xA;Java Agents are a powerful tool to instrument or modify your application at runtime. But how do they work? In this talk I&amp;rsquo;ll be going through how they work when configured at startup as well as attaching a agent to a running process.</description>
     </item>
-    
     <item>
       <title>Thriving in the cloud - Venturing beyond the 12 factors - Grace Jansen and Yasmin Aumeeruddy</title>
       <link>/blog/thriving-in-the-cloud/</link>
       <pubDate>Wed, 13 Apr 2022 07:09:08 +0000</pubDate>
-      
       <guid>/blog/thriving-in-the-cloud/</guid>
-      <description>Thriving in the cloud: Venturing beyond the 12 factors
-with Grace Jansen and Yasmin Aumeeruddy
-We are very excited to welcome Grace Jansen and Yasmin Aumeeruddy on their Open Liberty tour. They will be giving a workshop on Thriving in the cloud: Venturing beyond the 12 factors:
-Enabling applications to really thrive (and not just survive) in cloud environments can be challenging. The original 12 factor app methodology helped to lay out some of the key characteristics needed for cloud-native applications&amp;hellip; but&amp;hellip; as our cloud infrastructure and tooling has progressed, so too have these factors.</description>
+      <description>Thriving in the cloud: Venturing beyond the 12 factors&#xA;with Grace Jansen and Yasmin Aumeeruddy&#xA;We are very excited to welcome Grace Jansen and Yasmin Aumeeruddy on their Open Liberty tour. They will be giving a workshop on Thriving in the cloud: Venturing beyond the 12 factors:&#xA;Enabling applications to really thrive (and not just survive) in cloud environments can be challenging. The original 12 factor app methodology helped to lay out some of the key characteristics needed for cloud-native applications&amp;hellip; but&amp;hellip; as our cloud infrastructure and tooling has progressed, so too have these factors.</description>
     </item>
-    
     <item>
       <title>Learning Through Tinkering - Tom Cools</title>
       <link>/blog/learning-through-tinkering-tom-cools/</link>
       <pubDate>Sun, 13 Feb 2022 07:09:08 +0000</pubDate>
-      
       <guid>/blog/learning-through-tinkering-tom-cools/</guid>
-      <description>Our March Brighton JUG will take place on Tuesday 15th March at 5pm GMT. We will be opening the zoom just before 5pm for people to gather and chat.
-Our first speaker will be Tom Cools who will be talking about Learning Through Tinkering
-Do you also feel like it’s hard to keep up with all the new tools and frameworks coming your way? You are not alone! By choosing IT, you are choosing to learn for the rest of your life… not an easy task.</description>
+      <description>Our March Brighton JUG will take place on Tuesday 15th March at 5pm GMT. We will be opening the zoom just before 5pm for people to gather and chat.&#xA;Our first speaker will be Tom Cools who will be talking about Learning Through Tinkering&#xA;Do you also feel like it’s hard to keep up with all the new tools and frameworks coming your way? You are not alone! By choosing IT, you are choosing to learn for the rest of your life… not an easy task.</description>
     </item>
-    
     <item>
       <title>Java Development in a Post Log4Shell World - Lee Turner</title>
       <link>/blog/java-development-in-a-post-log4shell-world-lee-turner/</link>
       <pubDate>Tue, 18 Jan 2022 17:09:08 +0000</pubDate>
-      
       <guid>/blog/java-development-in-a-post-log4shell-world-lee-turner/</guid>
-      <description>Our second speaker will be Lee Turner - the Lead Backend Developer at Crunch. Lee will be talking to us about Java Development in a Post Log4Shell World
-As a Java developer you will probably already be aware of, and are probably in the midst of remediating, the vulnerability that has come to be known as Log4Shell. This is the vulnerability which security researchers disclosed on Friday (10 December 2021) for Apache’s Log4j logging framework.</description>
+      <description>Our second speaker will be Lee Turner - the Lead Backend Developer at Crunch. Lee will be talking to us about Java Development in a Post Log4Shell World&#xA;As a Java developer you will probably already be aware of, and are probably in the midst of remediating, the vulnerability that has come to be known as Log4Shell. This is the vulnerability which security researchers disclosed on Friday (10 December 2021) for Apache’s Log4j logging framework.</description>
     </item>
-    
     <item>
       <title>Writing Code is Easy, Being a Great Developer is Hard - Helen Scott</title>
       <link>/blog/writing-code-easy-being-great-developer-is-hard-helen-scott/</link>
       <pubDate>Wed, 05 Jan 2022 17:09:08 +0000</pubDate>
-      
       <guid>/blog/writing-code-easy-being-great-developer-is-hard-helen-scott/</guid>
-      <description>Out first ever Brighton JUG will take place on Tuesday 18th January at 5 pm GMT.
-Our first speaker will be Helen Scott who is a Keynote Storyteller at MongoDB. Helen will be talking to us about how Writing Code is Easy, Being a Great Developer is Hard:
-tldr; Everything I wish I’d learned about being a developer at University.
-We learn to write code at university, bootcamp, or we teach ourselves.</description>
+      <description>Out first ever Brighton JUG will take place on Tuesday 18th January at 5 pm GMT.&#xA;Our first speaker will be Helen Scott who is a Keynote Storyteller at MongoDB. Helen will be talking to us about how Writing Code is Easy, Being a Great Developer is Hard:&#xA;tldr; Everything I wish I’d learned about being a developer at University.&#xA;We learn to write code at university, bootcamp, or we teach ourselves.</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/about/</guid>
-      <description>Brighton JUG is a group bringing together Java users, enthusiasts and learners. We’re interested in the whole world of Java – android development, server frameworks, interesting tools, applications, development methodologies and so on and so on – anything Java.
-Our monthly meetings will include talks, workshops and socials.
-Visit our Meetup Page and sign up to come along to our next event or follow us on Twitter for all the latest news.</description>
+      <description>Brighton JUG is a group bringing together Java users, enthusiasts and learners. We’re interested in the whole world of Java – android development, server frameworks, interesting tools, applications, development methodologies and so on and so on – anything Java.&#xA;Our monthly meetings will include talks, workshops and socials.&#xA;Visit our Meetup Page and sign up to come along to our next event or follow us on Twitter for all the latest news.</description>
     </item>
-    
     <item>
       <title>Code of Conduct</title>
       <link>/code-of-conduct/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/code-of-conduct/</guid>
       <description>Event Code of Conduct &amp;amp; Anti-Harrassment Policy The Google Developer Groups, Kotlin User Groups and other Community Groups organizing these events [&amp;ldquo;Organizers&amp;rdquo;] are dedicated to providing a harassment-free and inclusive event experience for everyone regardless of gender identity and expression, sexual orientation, disabilities, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion, or other protected category. They do not tolerate harassment of event participants in any form. The Organizers take violations of this policy seriously and will respond appropriately.</description>
     </item>
-    
     <item>
       <title>Silicon Brighton</title>
       <link>/silicon-brighton/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/silicon-brighton/</guid>
-      <description>Brighton JUG is Co-Founded and Supported By Silicon Brighton
-Silicon Brighton is a community-led initiative to support digital growth in the region. We work hand-in-hand with the local tech community to provide individuals with free opportunities for networking, training, up-skilling and development; helping people to take their careers and businesses forward.
-We offer free events for networking, training, upskilling and development as well as a being an accessible platform for local people and businesses.</description>
+      <description>Brighton JUG is Co-Founded and Supported By Silicon Brighton&#xA;Silicon Brighton is a community-led initiative to support digital growth in the region. We work hand-in-hand with the local tech community to provide individuals with free opportunities for networking, training, up-skilling and development; helping people to take their careers and businesses forward.&#xA;We offer free events for networking, training, upskilling and development as well as a being an accessible platform for local people and businesses.</description>
     </item>
-    
   </channel>
 </rss>

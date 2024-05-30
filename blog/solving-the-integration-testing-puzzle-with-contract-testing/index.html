@@ -1,0 +1,1235 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "\/"
+        },
+        "articleSection" : "blog",
+        "name" : "Solving the integration testing puzzle with contract testing with Bas Dijkstra",
+        "headline" : "Solving the integration testing puzzle with contract testing with Bas Dijkstra",
+        "description" : "Solving the integration testing puzzle with contract testing with Bas Dijkstra",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2024",
+        "datePublished": "2024-05-30 18:17:53.151532 \u002b0000 UTC",
+        "dateModified" : "2024-05-30 18:17:53.151532 \u002b0000 UTC",
+        "url" : "\/blog\/solving-the-integration-testing-puzzle-with-contract-testing\/",
+        "wordCount" : "400",
+        "keywords" : [ "testing","contact","Blog" ]
+    }
+    </script>
+        
+            
+                <title>Solving the integration testing puzzle with contract testing with Bas Dijkstra</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.126.2">
+        
+  
+    
+  
+
+  
+
+  <link rel="apple-touch-icon-precomposed" href='/favicon/apple-touch-icon.png'>
+  <link rel="icon" href='/favicon/favicon.ico'>
+  
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content='/favicon/mstile.png'>
+  <meta name="application-name" content="Brighton JUG">
+  <meta name="msapplication-tooltip" content="Brighton JUG is a group bringing together Java users, enthusiasts and learners. ">
+  <meta name="msapplication-config" content='/favicon/ieconfig.xml'>
+
+
+        
+        
+            <meta name="author" content="Lee Turner">
+        
+        
+            <meta name="description" content="Solving the integration testing puzzle with contract testing with Bas Dijkstra">
+        
+
+        
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Solving the integration testing puzzle with contract testing with Bas Dijkstra">
+  <meta name="twitter:description" content="Solving the integration testing puzzle with contract testing with Bas Dijkstra">
+
+        <meta property="og:url" content="/blog/solving-the-integration-testing-puzzle-with-contract-testing/">
+  <meta property="og:site_name" content="Brighton JUG">
+  <meta property="og:title" content="Solving the integration testing puzzle with contract testing with Bas Dijkstra">
+  <meta property="og:description" content="Solving the integration testing puzzle with contract testing with Bas Dijkstra">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2024-05-30T18:17:53+00:00">
+    <meta property="article:modified_time" content="2024-05-30T18:17:53+00:00">
+    <meta property="article:tag" content="Testing">
+    <meta property="article:tag" content="Contact">
+
+        <meta property="og:image" content="//images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        
+  <meta itemprop="name" content="Solving the integration testing puzzle with contract testing with Bas Dijkstra">
+  <meta itemprop="description" content="Solving the integration testing puzzle with contract testing with Bas Dijkstra">
+  <meta itemprop="datePublished" content="2024-05-30T18:17:53+00:00">
+  <meta itemprop="dateModified" content="2024-05-30T18:17:53+00:00">
+  <meta itemprop="wordCount" content="400">
+  <meta itemprop="keywords" content="Testing,Contact">
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="/css/main.css">
+            <link rel="stylesheet" href="/css/add-on.css">
+            <link rel="stylesheet" href="/css/academicons.min.css">
+        
+
+        
+            
+                
+            
+        
+
+
+  
+    
+    <link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+  
+
+
+      
+  
+
+
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="/">Brighton JUG</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/blog/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://www.meetup.com/brighton-jug/">
+                            <i class="fa fa-meetup">&nbsp;</i>Meetup
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/silicon-brighton">
+                            <i class="fa fa-users">&nbsp;</i>Silicon Brighton
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://docs.google.com/forms/d/1yu1LDOUo0oYneYy_6RLhMUmJUN4pXN17KdpOySUJ4Dc/viewform">
+                            <i class="fa fa-envelope-o">&nbsp;</i>Speaker Form
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/blog/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://www.meetup.com/brighton-jug/">
+                            <h3>
+                                <i class="fa fa-meetup">&nbsp;</i>Meetup
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/silicon-brighton">
+                            <h3>
+                                <i class="fa fa-users">&nbsp;</i>Silicon Brighton
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://docs.google.com/forms/d/1yu1LDOUo0oYneYy_6RLhMUmJUN4pXN17KdpOySUJ4Dc/viewform">
+                            <h3>
+                                <i class="fa fa-envelope-o">&nbsp;</i>Speaker Form
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/solving-the-integration-testing-puzzle-with-contract-testing/">Solving the integration testing puzzle with contract testing with Bas Dijkstra</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2024-05-30'>
+                                    May 30, 2024</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/solving-the-integration-testing-puzzle-with-contract-testing/" class="image featured">
+            <img src="/images/blog/2024/05//bas-dijkstra.png" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/june-2023-brighton-jug-meetup---summer-social/">June 2023 Brighton JUG Meetup - Summer Social</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2023-06-17'>
+                                    June 17, 2023</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/june-2023-brighton-jug-meetup---summer-social/" class="image featured">
+            <img src="/images/blog/2023/06//summer-social.png" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/apache-tika-dan-conn/">Today&#39;s Special - Apache Tika Masala! with Dan Conn</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2023-01-23'>
+                                    January 23, 2023</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/apache-tika-dan-conn/" class="image featured">
+            <img src="/images/blog/2023/01/dan-conn.png" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/quarkus-for-spring-developers/">Quarkus for Spring Developers with Eric Deandrea</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2022-11-15'>
+                                    November 15, 2022</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/quarkus-for-spring-developers/" class="image featured">
+            <img src="/images/blog/2022/11/eric-deandrea.png" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/getting-started-cloud-natively/">Getting started cloud natively, with Java with Mark Sailes</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2022-09-20'>
+                                    September 20, 2022</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/getting-started-cloud-natively/" class="image featured">
+            <img src="/images/blog/2022/09/mark-sailes.png" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /blog/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=%2fblog%2fsolving-the-integration-testing-puzzle-with-contract-testing%2f&amp;text=Solving%20the%20integration%20testing%20puzzle%20with%20contract%20testing%20with%20Bas%20Dijkstra&amp;via=brightonjug" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=%2fblog%2fsolving-the-integration-testing-puzzle-with-contract-testing%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=%2fblog%2fsolving-the-integration-testing-puzzle-with-contract-testing%2f&amp;title=Solving%20the%20integration%20testing%20puzzle%20with%20contract%20testing%20with%20Bas%20Dijkstra" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2fsolving-the-integration-testing-puzzle-with-contract-testing%2f&amp;title=Solving%20the%20integration%20testing%20puzzle%20with%20contract%20testing%20with%20Bas%20Dijkstra" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="/blog/solving-the-integration-testing-puzzle-with-contract-testing/">Solving the integration testing puzzle with contract testing with Bas Dijkstra</a></h1>
+            
+        
+        
+            <p>Solving the integration testing puzzle with contract testing with Bas Dijkstra</p>
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2024-05-30'>
+            May 30, 2024</time>
+        <span class="author">Lee Turner</span>
+        
+            <p>2 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+<li>
+  <a href="//twitter.com/share?url=%2fblog%2fsolving-the-integration-testing-puzzle-with-contract-testing%2f&amp;text=Solving%20the%20integration%20testing%20puzzle%20with%20contract%20testing%20with%20Bas%20Dijkstra&amp;via=brightonjug" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=%2fblog%2fsolving-the-integration-testing-puzzle-with-contract-testing%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=%2fblog%2fsolving-the-integration-testing-puzzle-with-contract-testing%2f&amp;title=Solving%20the%20integration%20testing%20puzzle%20with%20contract%20testing%20with%20Bas%20Dijkstra" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2fsolving-the-integration-testing-puzzle-with-contract-testing%2f&amp;title=Solving%20the%20integration%20testing%20puzzle%20with%20contract%20testing%20with%20Bas%20Dijkstra" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </section>
+  
+
+  
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/solving-the-integration-testing-puzzle-with-contract-testing/" class="image featured">
+            <img src="/images/blog/2024/05//bas-dijkstra.png" alt="">
+        </a>
+    
+
+
+  <div id="content">
+    <p>Come and join us by signing up on our meetup
+page: <a href="https://www.meetup.com/brighton-jug/events/299691382/">https://www.meetup.com/brighton-jug/events/299691382/</a></p>
+<p>We are very excited to welcome <strong>Bas Dijkstra</strong> as a speaker at Brighton JUG. Bas is a Test automation trainer and
+consultant at On Test Automation. He will be giving a talk on - <strong>Solving the integration testing puzzle with contract
+testing</strong></p>
+<p>Modern applications that are built out of loosely coupled pose some challenges in terms of integration and E2E testing.
+Contract testing is an approach that is meant to address these challenges. In this talk and live demo, I&rsquo;ll</p>
+<ul>
+<li>introduce the concept of contract testing</li>
+<li>discuss different approaches to contract testing</li>
+<li>give a demo of how contract testing in Java works using the Pact framework</li>
+<li>address benefits and implementation challenges of contract testing</li>
+</ul>
+<p>Our friends at Silicon Brighton will again be providing the AV and streaming live on YouTube and LinkedIn, plus there
+will be drinks and pizza courtesy of Runway East and Silicon Brighton, and a chance to chat with the Brighton Kotlin
+community for those attending in person.</p>
+<p><strong>Bas Dijkstra</strong></p>
+<p>I&rsquo;m a test automation trainer and consultant with 17 years of experience in improving testing efforts through smart use
+of tools. In these 17 years, I&rsquo;ve covered everything from building and maintaining test automation solutions that work,
+to creating and implementing test automation strategies across teams and organizations.</p>
+<p>I’m an experienced corporate trainer and have successfully delivered many courses on test automation to companies in the
+Netherlands as well as abroad, to excellent reviews. My courses are built on the experience I’ve gained in 17 years of
+being a test automation consultant, so I know what works and what doesn’t.</p>
+<p>I’ve also recently launched a (corporate) mentoring service, aimed at helping individuals become great automation
+engineers: <a href="https://www.ontestautomation.com/mentoring/">https://www.ontestautomation.com/mentoring/</a></p>
+<p>Next to being a trainer and consultant, I am also the developer of RestAssured .Net, a library for easy testing of HTTP
+APIs in C#: <a href="https://github.com/basdijkstra/rest-assured-net">https://github.com/basdijkstra/rest-assured-net</a>.</p>
+<p>I also enjoy public speaking and have been doing about 20 talks yearly for the last 3-4 years, including keynotes at
+respected international conferences. If you&rsquo;re looking for a speaker for your corporate event or conference, feel free
+to send me a message.</p>
+<p>I’m particularly interested in travelling for speaking or training engagements to Norway 🇳🇴, Canada 🇨🇦, South Africa
+🇿🇦, Malaysia 🇲🇾, Australia 🇦🇺 or New Zealand 🇳🇿.</p>
+<p>Interests outside of work: long distance cycling, travelling, reading fiction and learning Norwegian.</p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+        
+            
+            
+                <i class="fa fa-folder"></i>
+                
+                
+                <li><a class="article-category-link" href="/categories/meetups">Meetups</a></li>
+                
+            
+        
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+            
+            
+                <i class="fa fa-tags"></i>
+                
+                
+                <li><a class="article-category-link" href="/tags/testing">testing</a></li>
+                
+                
+                <li><a class="article-category-link" href="/tags/contact">contact</a></li>
+                
+            
+        
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+
+</article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="/blog/june-2023-brighton-jug-meetup---summer-social/"
+                class="button big previous">June 2023 Brighton JUG Meetup - Summer Social</a></li>
+    
+
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='/' class="logo"><img src="/images/logo.jpeg" alt="Brighton JUG Logo" /></a>
+      
+    
+    
+      <header>
+        <h2>Brighton JUG</h2>
+        <p>Welcome to the Brighton JUG website</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+          
+        
+        
+<li><a href="//meetup.com/Brighton-jug" target="_blank" title="Meetup" class="fa fa-meetup"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/brightonjug" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/solving-the-integration-testing-puzzle-with-contract-testing/">Solving the integration testing puzzle with contract testing with Bas Dijkstra</a>
+              </h3>
+              
+              <time class="published" datetime='2024-05-30'>
+                May 30, 2024
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/solving-the-integration-testing-puzzle-with-contract-testing/" class="image featured">
+            <img src="/images/blog/2024/05//bas-dijkstra.png" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/june-2023-brighton-jug-meetup---summer-social/">June 2023 Brighton JUG Meetup - Summer Social</a>
+              </h3>
+              
+              <time class="published" datetime='2023-06-17'>
+                June 17, 2023
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/june-2023-brighton-jug-meetup---summer-social/" class="image featured">
+            <img src="/images/blog/2023/06//summer-social.png" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/apache-tika-dan-conn/">Today&#39;s Special - Apache Tika Masala! with Dan Conn</a>
+              </h3>
+              
+              <time class="published" datetime='2023-01-23'>
+                January 23, 2023
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/apache-tika-dan-conn/" class="image featured">
+            <img src="/images/blog/2023/01/dan-conn.png" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/quarkus-for-spring-developers/">Quarkus for Spring Developers with Eric Deandrea</a>
+              </h3>
+              
+              <time class="published" datetime='2022-11-15'>
+                November 15, 2022
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/quarkus-for-spring-developers/" class="image featured">
+            <img src="/images/blog/2022/11/eric-deandrea.png" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/getting-started-cloud-natively/">Getting started cloud natively, with Java with Mark Sailes</a>
+              </h3>
+              
+              <time class="published" datetime='2022-09-20'>
+                September 20, 2022
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/getting-started-cloud-natively/" class="image featured">
+            <img src="/images/blog/2022/09/mark-sailes.png" alt="">
+        </a>
+    
+
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /blog/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>Brighton JUG is a group bringing together Java users, enthusiasts and learners. We’re interested in the whole world of Java – android development, server frameworks, interesting tools, applications, development methodologies and so on and so on – anything Java. Our monthly meetings will include talks, workshops and socials.</p>
+      <a href="/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+          
+        
+        
+<li><a href="//meetup.com/Brighton-jug" target="_blank" title="Meetup" class="fa fa-meetup"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/brightonjug" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        2022 Brighton JUG | <a href="/code-of-conduct/">Code of Conduct</a>
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+        
+        
+        
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/css.min.js"></script>
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="/js/util.js"></script>
+      <script src="/js/main.js"></script>
+      <script src="/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
+

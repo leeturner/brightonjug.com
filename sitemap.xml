@@ -3,24 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/blog/</loc>
-    <lastmod>2023-06-17T11:15:02+00:00</lastmod>
+    <lastmod>2024-05-30T18:17:53+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2023-06-17T11:15:02+00:00</lastmod>
+    <lastmod>2024-05-30T18:17:53+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2023-06-17T11:15:02+00:00</lastmod>
+    <lastmod>2024-05-30T18:17:53+00:00</lastmod>
+  </url><url>
+    <loc>/tags/contact/</loc>
+    <lastmod>2024-05-30T18:17:53+00:00</lastmod>
+  </url><url>
+    <loc>/categories/meetups/</loc>
+    <lastmod>2024-05-30T18:17:53+00:00</lastmod>
+  </url><url>
+    <loc>/blog/solving-the-integration-testing-puzzle-with-contract-testing/</loc>
+    <lastmod>2024-05-30T18:17:53+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-05-30T18:17:53+00:00</lastmod>
+  </url><url>
+    <loc>/tags/testing/</loc>
+    <lastmod>2024-05-30T18:17:53+00:00</lastmod>
   </url><url>
     <loc>/blog/june-2023-brighton-jug-meetup---summer-social/</loc>
     <lastmod>2023-06-17T11:15:02+00:00</lastmod>
   </url><url>
-    <loc>/categories/meetups/</loc>
-    <lastmod>2023-06-17T11:15:02+00:00</lastmod>
-  </url><url>
     <loc>/tags/social/</loc>
-    <lastmod>2023-06-17T11:15:02+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2023-06-17T11:15:02+00:00</lastmod>
   </url><url>
     <loc>/tags/apache/</loc>

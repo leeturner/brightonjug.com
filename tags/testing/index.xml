@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testing on Brighton JUG</title>
+    <link>/tags/testing/</link>
+    <description>Recent content in Testing on Brighton JUG</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>2022 Brighton JUG | &lt;a href=&#34;/code-of-conduct/&#34;&gt;Code of Conduct&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 30 May 2024 18:17:53 +0000</lastBuildDate>
+    <atom:link href="/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solving the integration testing puzzle with contract testing with Bas Dijkstra</title>
+      <link>/blog/solving-the-integration-testing-puzzle-with-contract-testing/</link>
+      <pubDate>Thu, 30 May 2024 18:17:53 +0000</pubDate>
+      <guid>/blog/solving-the-integration-testing-puzzle-with-contract-testing/</guid>
+      <description>Come and join us by signing up on our meetup page: https://www.meetup.com/brighton-jug/events/299691382/&#xA;We are very excited to welcome Bas Dijkstra as a speaker at Brighton JUG. Bas is a Test automation trainer and consultant at On Test Automation. He will be giving a talk on - Solving the integration testing puzzle with contract testing&#xA;Modern applications that are built out of loosely coupled pose some challenges in terms of integration and E2E testing.</description>
+    </item>
+  </channel>
+</rss>
